@@ -2,17 +2,26 @@
 html {
   font-size: 62.5%;
 }
-body {color: #393d41;
-      font-family: "Open Sans", sans-serif;
-      font-size: 1.2rem;
-      line-height: 1.65;}
+body {
+  color: #393d41;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.65;
 
-* {box-sizing: border-box;}
 
-p { font-size: 2.5em;
-    padding: 0 1.65em;}
+}
+* {
+  box-sizing: border-box;
+}
 
-h1, h2, h3 {
+p {
+  font-size: 2.5em;
+  padding: 0 1.65em;
+}
+
+h1,
+h2,
+h3 {
   line-height: 1.5em;
   font-family: "Montserrat", sans-serif;
   color: #25a2c3;
@@ -23,16 +32,20 @@ h1 {
   font-weight: 300;
 }
 
-h2 { font-size: 3rem;}
+h2 {
+  font-size: 3rem;
+  margin: 0.5em 0 0.5em 0;
+}
 
-h3 { font-size: 2.2rem;}
+h3 {
+  font-size: 2.2rem;
+}
 
 /* -----------HEADER-------------- */
 
 header {
   margin-top: 0;
   width: 100%;
-
   text-align: left;
   height: 50em;
 }
@@ -51,7 +64,7 @@ header h1 {
 #head {
   text-align: center;
   width: 100%;
-  height: 80em;
+  height: 90em;
   margin-bottom: 10em;
   padding: 15px;
   background-image: url(../images/banner.jpg);
@@ -101,18 +114,17 @@ main p {
   font-size: 2em;
 }
 
-main h2 {margin: 0.5em 0 0.5em 0;}
-
 section div img{
   border-radius: 50%;
   width: 100%;
 }
 
 .primaSec{
-  margin-top: 50em;
+  margin-top: 60em;
   margin-bottom: 15em;
   padding: 2rem 2rem;
-   
+  
+  
 }
 
 .primaSec div {
@@ -134,22 +146,29 @@ section div img{
   margin-bottom: 5em;
 }
 
-.testimonianze h1 { 
+.testimonianze h1 {
+  
   margin-top: 1.2em;
   margin-bottom: 0.2em;
   color: white;
 }
 
-.testimonianza {font-style: italic;}
+.testimonianza {
+  font-style: italic;
+}
 
 .testimonianze p {
   font-size: 4rem;
   margin-bottom: 1em;
 }
 
-span {font-size: 2rem;}
+span {
+  font-size: 2rem;
+}
 
-#mario {font-size: 3rem;}
+#mario {
+  font-size: 3rem;
+}
 
 /* -----------ASIDE-------------- */
 
@@ -160,9 +179,12 @@ aside div {
   border: 1px solid #dee1e3;
 }
 
-#first {margin-left: 20em;}
+#first {
+  margin-left: 20em;
+}
 
 aside div:hover {
+  
   box-shadow: 0 3px 5px grey;
   transition: 0.5s;
 }
@@ -172,7 +194,9 @@ aside div img {
   height: 358px;
 }
 
-aside div h3 {margin: 0.8em 0 0.8em 0;}
+aside div h3 {
+  margin: 0.8em 0 0.8em 0;
+}
 
 aside div p {
   font-size: 1.8em;
@@ -189,7 +213,9 @@ aside h3 a:hover {
   text-decoration: underline;
 }
 
-aside h3 a:visited {color: #0d343f;}
+aside h3 a:visited {
+  color: #0d343f;
+}
 
 /* -----------FOOTER-------------- */
 
@@ -220,7 +246,9 @@ address {
   color: #c8e7f0;
 }
 
-address {margin-bottom: 1.5em;}
+address {
+  margin-bottom: 1.5em;
+}
 
 footer p,
 p > a {
@@ -239,5 +267,5 @@ footer img {
 
 hr{
   border: 1px solid #c8e7f0 ;
-  margin-right: 14%;
+  margin-right: 23%;
 }
