@@ -1,26 +1,3 @@
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Roboto Condensed', sans-serif; */
-/* Font
-Body: #393d41 – 1.2rem – Open Sans – interlinea 1.65
-Headings: #25a2c3 – Montserrat (bold) – interlinea 1.5
-Footer: #c8e7f0
-Footer Heading: white
-Footer link: #c8e7f0
-
-Colori sfondo
-Header: black
-Pulsante: #f04c2f – Montserrat (bold) – bold
-Testimonianze: #e22d0e
-Footer: #25a2c3
-
-Bordi
-Bordo schede: #dee1e3 */
-
-/* Your styles here */
-
 /* IMPOSTAZIONI GENERALI */
 html {
   font-size: 62.5%;
@@ -103,7 +80,6 @@ header div p {
 
 header img {
   margin-bottom: 0.8em;
-
   width: 38rem;
   padding: 2em;
 }
@@ -142,8 +118,6 @@ main h2 {
   margin: 0.5em 0 0.5em 0;
 }
 
-
-
 section div img{
   border-radius: 50%;
   width: 100%;
@@ -153,22 +127,16 @@ section div img{
   margin-top: 50em;
   margin-bottom: 15em;
   padding: 2rem 2rem;
-  
-  
+   
 }
 
 .primaSec div {
   width: 30%;
   display: inline-block;
-  padding: 1rem 1rem;
+  padding: 2rem 2rem;
   vertical-align: middle;
-  text-align: left;
-  
+  text-align: left; 
 }
-
-
-
-
 
 /* -----------TESTIMONIANZE-------------- */
 
@@ -181,8 +149,7 @@ section div img{
   margin-bottom: 5em;
 }
 
-.testimonianze h1 {
-  
+.testimonianze h1 { 
   margin-top: 1.2em;
   margin-bottom: 0.2em;
   color: white;
