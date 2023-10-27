@@ -1,4 +1,4 @@
-/* font-family: 'Montserrat', sans-serif;
+* font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Playfair Display', serif;
@@ -87,7 +87,7 @@ header h1 {
 #head {
   text-align: center;
   width: 100%;
-  height: 64em;
+  height: 70em;
   margin-bottom: 10em;
   padding: 15px;
   background-image: url(../images/banner.jpg);
@@ -142,23 +142,33 @@ main h2 {
   margin: 0.5em 0 0.5em 0;
 }
 
-.primaSec img {
-  margin-left: 35em;
-  margin-top: -12em;
+
+
+section div img{
   border-radius: 50%;
-  width: 55em;
-  float: left;
+  width: 100%;
+}
+
+.primaSec{
+  margin-top: 40em;
+  margin-bottom: 15em;
+  padding: 2rem 2rem;
+  
+  
 }
 
 .primaSec div {
-  margin-bottom: 10em;
-  margin-top: 55em;
-  margin-left: 100em;
-  height: 45em;
-  padding: 0;
-
+  width: 30%;
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
   text-align: left;
+  
 }
+
+
+
+
 
 /* -----------TESTIMONIANZE-------------- */
 
@@ -166,14 +176,15 @@ main h2 {
   background-color: #e22d0e;
   color: white;
   margin-top: 5em;
-  height: 40em;
-  padding: 1.35em;
+  height: 50em;
+  padding: 7.35em;
   margin-bottom: 5em;
 }
 
 .testimonianze h1 {
+  
   margin-top: 1.2em;
-  margin-bottom: 1em;
+  margin-bottom: 0.2em;
   color: white;
 }
 
@@ -286,4 +297,9 @@ footer img {
   width: 30px;
   height: 30px;
   margin-bottom: -5px;
+}
+
+hr{
+  border: 1px solid #c8e7f0 ;
+  margin-right: 14%;
 }
