@@ -72,8 +72,8 @@ function sommaNum() {
 
 nome = "Veneziano";
 console.log(nome);
-const nome2 = "Pietro";
-nome2 ="Marco";
+const nome2 = "Pietro"; // commentato per permettere il log del resto dell'esercizio
+//nome2 ="Marco";
 console.log(nome2);
 
 
