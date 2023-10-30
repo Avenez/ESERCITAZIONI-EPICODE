@@ -70,10 +70,11 @@ function sommaNum() {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const nome = "Veneziano";
+nome = "Veneziano";
 console.log(nome);
-// nome = "Pietro"
-// console.log(nome);
+const nome2 = "Pietro";
+nome2 ="Marco";
+console.log(nome2);
 
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
