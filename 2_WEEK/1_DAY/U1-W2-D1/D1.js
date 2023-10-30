@@ -103,7 +103,7 @@ console.log(z);
 var name1 = "john";
 var name2 = "John";
 (name1 != name2) ? console.log("i due nomi sono diversi") : console.log("i due nomi sono diversi");
-(name1 != name2.toLowerCase) ? console.log("i due nomi sono diversi") : console.log("i due nomi sono diversi");
+(name1 != name2.toLowerCase()) ? console.log("i due nomi sono diversi") : console.log("i due nomi sono diversi");
 
 {
   let name1 = "john";
