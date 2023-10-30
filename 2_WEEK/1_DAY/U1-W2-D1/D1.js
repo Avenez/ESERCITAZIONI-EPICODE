@@ -18,7 +18,7 @@ REGOLE
 
 var string = "Testo";            //Questo tipo (STRINGA) viene usato per i testi scritti e deve essere contenuto tra apici singoli '' o doppi "" che non possono essere combinati tra loro. Se usati nella nostra variabile vanno preceduti da \ come tutti gli altri tipi di caratteri speciali
 var num = 1234;                  //Questo tipo (NUMERI) viene usato per i numeri. Questi possono essere interi, decimali negativi, ecc.
-var boolean = true;              //Questo  tipo (BOOLEANO) identifica solo due possibili valori: True(vero) o False(Falso). Può essere utilizzato per dichiarare che una condizione, o uno stato, sia vera o meno.
+var booleano = true;              //Questo  tipo (BOOLEANO) identifica solo due possibili valori: True(vero) o False(Falso). Può essere utilizzato per dichiarare che una condizione, o uno stato, sia vera o meno.
 var nullo = null                 //Se i datatype sono l'etichetta delle scatole in cui mettere il contenuto delle nostre variabili, allora null è l'etichetta che dichiara che la scatola è vuota e senza una vera e propria etichetta. QUesta scatola potrà poi essere riempita con qualsiasi contenuto e rietichettata
 var indefinito = undefined       //In questo caso il valore Undefined è il datatype che dice a JS che la scatola, quindi la variabile non esiste proprio.
 
