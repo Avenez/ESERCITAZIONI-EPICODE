@@ -316,7 +316,7 @@ console.log(me.skills[2]);
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
+/*
 function maxOfTwo () {
   let x = document.getElementById("num1").value;
   let y = document.getElementById("num2").value;
@@ -341,5 +341,5 @@ function divForFive () {
     document.getElementById("ris2").innerHTML = (x + " non è divisibile per 5!")
   };
 }
-
+*/
 
