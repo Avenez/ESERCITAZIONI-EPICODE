@@ -1,0 +1,153 @@
+/* COLORI
+header top : #293341
+header bottom : #3c495a
+
+"button" : #e96400
+*/
+
+/* ---------------Global----------- */
+html {   
+    font-size: 62.5%;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    background-color: #e9eced;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    padding: 4rem 4rem 0rem 4rem;   
+}
+
+main > * , footer{
+    margin-top: 4rem;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.topBottom{
+    background-color: #293341 ;
+}
+
+.middleTopBottom{
+    background-color: #3c495a ;
+}
+
+h1{
+    padding: 10rem 2rem 5rem 2rem;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 6rem;
+}
+
+span{
+    font-size: 0.6em ;
+}
+
+.titles{
+    font-size: 2.5rem;
+    font-weight:500;
+}
+.titles a{
+    color: #077886;
+    margin-left: 1.5rem;
+    font-size: 1.9rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+h1, li, main div p, footer div p {
+    color: white;
+}
+
+/* ---------------Header----------- */
+
+ul {
+    margin-left: 3rem;
+}
+
+li {
+    font-size: 1.8rem;
+    display: inline-block;
+    margin: 0.5rem 1rem ;
+}
+
+header div img{
+    margin-left: 3rem;
+    width: 15rem;
+    padding: 1rem;
+}
+
+/* ---------------Main----------- */
+
+main div p {
+    background-color: #e96400 ;
+    font-size: 2rem;
+    padding: 0.4rem;
+}
+
+main div:nth-child(2){
+    background-image:url("../assets/images/bg-image.png ");
+    background-size: 1695px 180px;
+    
+}
+
+main section:first-of-type {
+    padding:2rem;
+    background-color: white;
+}
+
+main section:first-of-type p{
+    margin-left: 2.2rem;
+}
+
+main section:first-of-type div {
+    width: 22.7%;
+    height: 500px;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 1rem 1.8rem;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 6px 6px 15px rgb(201, 201, 201);
+}
+
+main section:first-of-type div:hover{
+    box-shadow: 10px 10px 15px rgb(134, 134, 134);
+    transition: 0.5s ease;
+}
+
+section img {
+    width: 100%;
+}
+
+#img1{background-image: url("../assets/images/img_1.jpg");}
+#img2{background-image: url("../assets/images/img_2.jpg");}
+#img3{background-image: url("../assets/images/img_3.jpg");}
+#img4{background-image: url("../assets/images/img_4.jpg");}
+
+/* -------------------FOOTER------------------------- */
+footer div p{
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: underline;
+    padding: 1rem;
+}
+
+footer div img{
+    padding: 8rem;
+    width: 20%;
+}
