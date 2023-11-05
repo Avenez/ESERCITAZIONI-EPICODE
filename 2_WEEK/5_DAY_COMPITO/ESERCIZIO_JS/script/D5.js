@@ -394,4 +394,3 @@ charactersArray.forEach(element => {
 });
 
 console.log(alfabetNum);
-
