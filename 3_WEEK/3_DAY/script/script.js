@@ -8,9 +8,9 @@ function addElement(){
     let inputField = document.getElementById("elementoLista");
     if(elementLista !== ""){
     let li = document.createElement("li");
-    li.innerHTML = `${elementLista}`
     ul.appendChild(li);
     let idexId = document.querySelectorAll("li")
+        
     for(i = 0 ; i < idexId.length; i++){
         li.removeAttribute("id");
         li.setAttribute("id",`${i}`)
