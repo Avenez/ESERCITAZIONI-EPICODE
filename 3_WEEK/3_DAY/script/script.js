@@ -24,12 +24,22 @@ else{
 
 }
 
-var lista = document.querySelector('ul');
-    lista.addEventListener('click', function(x) {
+let ul = document.querySelector('ul');
+    ul.addEventListener('click', function(x) {
     if (x.target.tagName === 'LI') {
         x.target.classList.toggle('line');
     }
-    }, false);
+    });
+
+    // let ul = document.querySelector('ul');
+    // lista.addEventListener('click', sbarra());
+    
+    // function sbarra(x){
+    // if (x.target.tagName === 'LI') {
+    //     x.target.classList.toggle('line');
+    // }
+    // };
+
 
 function elimina(x){
     document.getElementById(x).remove();
