@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chech List</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <h1>COSE DA FARE</h1>
+    <div>
+        <input id="elementoLista" type="text" placeholder="Inserisci">
+        <button id="aggiungi">Aggiungi alla lista</button>
+    </div>
+
+    <ul>
+
+    </ul>
+
+    <!-- <script>
+
+
+        let bottone = document.getElementById("aggiungi");
+        bottone.addEventListener('click', addElement);
+        
+        
+
+        function addElement(){
+            let ul = document.querySelector("ul");
+            let elementLista = document.getElementById("elementoLista").value;
+            if(elementLista !== ""){
+            let li = document.createElement("li");
+            li.innerHTML = `${elementLista}`
+            ul.appendChild(li);
+            let idexId = document.querySelectorAll("li")
+            for(i = 0 ; i < idexId.length; i++){
+                li.removeAttribute("id");
+                li.setAttribute("id",`${i}`)
+                li.innerHTML = `<img onclick="elimina(${i})" src="assets/trash-outline.svg" alt="cestino"> ${elementLista}`
+            }
+        }
+        else{
+            alert("Devi inserire un task");
+        }
+        elementLista.value = '';
+        }
+        
+
+        var lista = document.querySelector('ul');
+            lista.addEventListener('click', function(x) {
+            if (x.target.tagName === 'LI') {
+                x.target.classList.toggle('line');
+            }
+            }, false);
+
+        // var lista = document.querySelector("ul");
+        // lista.addEventListener("click", sbarra());
+        // function sbarra(x){
+        //     if(x.target.tagName === "LI"){
+        //         x.target.classList.toggle('line');
+        //     }
+        // }
+
+        function elimina(x){
+            document.getElementById(x).remove();
+        }
+    
+    </script> -->
+    <script src="script/script.js"></script>
+</body>
+</html>
