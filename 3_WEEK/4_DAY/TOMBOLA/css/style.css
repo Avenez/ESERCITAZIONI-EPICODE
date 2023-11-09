@@ -1,0 +1,103 @@
+h1{
+    font-weight: 400;
+    font-size: 60px;
+    background: -webkit-linear-gradient(blueviolet, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Impact, sans-serif;
+}
+
+
+
+#estrattore button, #partita button{
+    color: rgb(83, 26, 136);
+    width: 300px;
+    height: 50px;
+    border: 2px blueviolet solid;
+    cursor: pointer;
+    font-family: Impact, sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    
+}
+
+#estrattore button:hover, #partita button:hover{
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+
+#tabellone{
+    display: block;
+    margin: 10px 10px 50px 10px;
+    padding: 30px;
+    height: 300px;
+}
+
+#tabellone div , #schede div{
+    padding: 5px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.marcato{
+    background-color: blueviolet;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 50%;
+    color: white;
+}
+
+
+#schede section {
+    display: inline-block;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    border: 3px solid black;
+    background-color: rgb(219, 211, 255);
+    border-radius: 30px;
+}
+
+#partita{
+    vertical-align: bottom;  
+}
+
+#partita input , #partita button{
+    margin-left: 20px;
+}
+
+#partita button{
+font-size: 15px;
+width: 120px;
+height:30px ;
+}
+
+#partita input{
+    font-family: Impact, sans-serif;
+    width: 30px;
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+label{
+    font-size: 15px; 
+    background: -webkit-linear-gradient(blueviolet, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
