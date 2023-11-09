@@ -10,12 +10,19 @@ const creaTabellone = function (){
     }
 }
 creaTabellone();
+let button = document.querySelectorAll('button');
+
+const reset = function(){
+    window.location.reload();
+}
+button[0].addEventListener('click' , reset)
+
+
 
 const randomNumber = function (){
     let randomNumber = Math.floor(Math.random()*77)+1;
     if(!controllo.includes(randomNumber)){
         controllo.push(randomNumber)
-
         let selectedCell1 = document.getElementById(randomNumber);
         let selectedCell2 = document.getElementsByClassName(`${randomNumber}`);
         selectedCell1.classList.add('marcato')
@@ -26,10 +33,7 @@ const randomNumber = function (){
     }
 
 
-
-    let button = document.querySelectorAll('button');
-    button[0].addEventListener('click' , randomNumber)
-
+    button[1].addEventListener('click' , randomNumber)
 
 
     const schedeGioco = function (){
@@ -46,4 +50,4 @@ const randomNumber = function (){
     }    
     }
 
-    button[1].addEventListener('click' , schedeGioco)
+    button[2].addEventListener('click' , schedeGioco)
