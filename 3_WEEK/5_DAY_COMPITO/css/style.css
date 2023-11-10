@@ -1,0 +1,15 @@
+.bcolor{
+    background-color: red;
+}
+
+table, tr,td,th{
+    border: 1px solid black;
+}
+
+th, td{
+    width: 200px;
+}
+
+.test{
+    background-color: cornflowerblue;
+}
